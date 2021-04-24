@@ -36,14 +36,14 @@
 //   | GRAVE | F1    | F2    | F3    | F4    | F5       | F6    | F7    | F8    | F9    | F10   | F11   | F12   | RESET  | TRANS | MUTE  |
 //   | TRANS |RGB_TOG| TRANS |RGB_HUI|RGB_HUD| BT_SEL 1 | PSCR  | SCLK  | PAUSE | TRANS | TRANS | TRANS | TRANS | RESET  |         NEXT T|
 // |MT(SPACE)|RGB_EFF|RGB_EFR|RGB_SAI|RGB_SAD| BT_SEL 2 | INS   | HOME  | PG_UP | TRANS | TRANS | TRANS |         TRANS  |         PREV T|
-//   | SHIFT | TRANS | TRANS |RGB_BRI|RGB_BRD| BT_SEL 3 | TRANS | DEL   | END   | PG_DN | TRANS | TRANS | TRANS |          PG_UP |
+//   | SHIFT | TRANS | TRANS |RGB_BRI|RGB_BRD| TRANS    | TRANS | DEL   | END   | PG_DN | TRANS | TRANS | TRANS |          PG_UP |
 //   | TRANS |         GUI   |         TRANS | TRANS    |         TRANS | MENU  |                                 HOME   | PG_DN | END   |
 
 			bindings = <
     &kp GRAVE        &kp F1           &kp F2           &kp F3          &kp F4          &kp F5        &kp F6           &kp F7           &kp F8           &kp F9           &kp F10          &kp F11          &kp F12          &trans           &trans         &kp C_MUTE
     &trans           &rgb_ug RGB_TOG  &trans           &rgb_ug RGB_HUI &rgb_ug RGB_HUD &bt BT_SEL 1  &kp PSCRN        &kp SLCK         &kp PAUSE_BREAK  &trans           &trans           &trans           &trans           &trans                          &kp C_PREV
     &trans           &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SAI &rgb_ug RGB_SAD &bt BT_SEL 2  &kp INS          &kp HOME         &kp PG_UP        &trans           &trans           &trans                            &trans                          &kp C_NEXT
-    &kp LSHFT        &trans           &trans           &rgb_ug RGB_BRI &rgb_ug RGB_BRD &bt BT_SEL 3  &trans           &kp DEL          &kp END          &kp PG_DN        &trans           &trans           &trans                            &kp PG_UP
+    &kp LSHFT        &trans           &trans           &rgb_ug RGB_BRI &rgb_ug RGB_BRD &trans        &trans           &kp DEL          &kp END          &kp PG_DN        &trans           &trans           &trans                            &kp PG_UP
     &trans                            &kp LGUI                         &trans          &trans        &trans           &kp C_MENU                                                                                            &kp HOME         &kp PG_DN      &kp END        
 			>;
 
