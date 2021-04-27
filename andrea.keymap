@@ -27,7 +27,7 @@
     &kp LCTRL                         &kp LALT                    &lt FN SPACE  &kp BKSP         &lt FN SPACE     &kp RALT                                                                                              &kp LEFT         &kp DOWN        &kp RIGHT
 			>;
 			
-			sensor-bindings = <&inc_dec_kp C_AC_SCROLL_DOWN C_AC_SCROLL_UP>;
+			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
 			
 		};
 
