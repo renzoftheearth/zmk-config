@@ -27,7 +27,7 @@
     &kp LCTRL                         &kp LALT                    &kp SPACE     &lt FN BSPC      &kp SPACE        &kp RALT                                                                                              &kp LEFT         &kp DOWN        &kp RIGHT
 			>;
 			
-			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+			sensor-bindings = <&inc_dec_kp BKSP   DEL>;
 			
 		};
 
